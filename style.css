@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "tapestry";
+    src: url("Tapestry-Regular.woff") format("woff");
+}
+
+*{
+     font-family: "tapestry";
+     margin-left: 0.3em;
+     padding: 0.2em;
+     margin-top: 0em;
+
+}
+
+section{
+    background-image: url(/sect-back.jpg);
+    background-size: cover;
+    background-color: rgba(grey, black, blue, .2);
+    background-blend-mode: saturation;
+    color: aliceblue;
+}
+
+.nav li{
+    display: inline;
+    padding: 3em;
+    color: azure;
+    text-align: right;
+}
+.main h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
+    color: cornsilk;
+}
+.main{
+    background-color:black;
+
+}
+.main-footer {
+    background-color: black;
+    color: beige;
+}
